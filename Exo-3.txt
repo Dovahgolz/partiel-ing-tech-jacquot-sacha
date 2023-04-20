@@ -1,0 +1,20 @@
+class Avion {
+  constructor(marque, modele, longueur, nbPlace, reservoir, vitesse) {
+    this.marque = marque;
+    this.modele = modele;
+    this.longueur = longueur;
+    this.nbPlace = nbPlace;
+    this.reservoir = reservoir;
+    this.vitesse = vitesse;
+    
+let avions = [
+  new Avion("Boeing", "747", 76.3, 660, 216, 988),
+  new Avion("Airbus", "A380", 72.7, 853, 320, 945),
+  new Avion("Embraer", "E195-E2", 41.5, 146, 30, 880),
+  new Avion("Bombardier", "Global 7500", 33.7, 19, 48, 956),
+  new Avion("Cessna", "Citation X+", 22.3, 12, 38, 945)
+];
+
+for (let i = 0; i < avions.length; i++) {
+  console.log(avions[i].getMarque() + " " + avions[i].getModele());
+}
