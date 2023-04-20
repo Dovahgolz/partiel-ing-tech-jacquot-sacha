@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mon site e-commerce de moto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mon site e-commerce de moto</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Produits</a></li>
+                <li><a href="#">Panier</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="produits">
+            <h2>Nos produits</h2>
+            <ul>
+                <li>
+                    <div class="produit">
+                        <img src="image1.jpg" alt="Produit 1">
+                        <h3>Produit 1</h3>
+                        <p class="prix">1999 €</p>
+                        <button>Ajouter au panier</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="produit">
+                        <img src="image2.jpg" alt="Produit 2">
+                        <h3>Produit 2</h3>
+                        <p class="prix">2499 €</p>
+                        <button>Ajouter au panier</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="produit">
+                        <img src="image3.jpg" alt="Produit 3">
+                        <h3>Produit 3</h3>
+                        <p class="prix">2999 €</p>
+                        <button>Ajouter au panier</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="produit">
+                        <img src="image4.jpg" alt="Produit 4">
+                        <h3>Produit 4</h3>
+                        <p class="prix">1499 €</p>
+                        <button>Ajouter au panier</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="produit">
+                        <img src="image5.jpg" alt="Produit 5">
+                        <h3>Produit 5</h3>
+                        <p class="prix">3499 €</p>
+                        <button>Ajouter au panier</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="produit">
+                        <img src="image6.jpg" alt="Produit 6">
+                        <h3>Produit 6</h3>
+                        <p class="prix">1999 €</p>
+                        <button>Ajouter au panier</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="panier">
+            <h2>Mon panier</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produit</th>
+                        <th>Prix unitaire</th>
+                        <th>Quantité</th>
+                        <th>Total</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Produit 1</td>
+                        <td>1999 €</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>199
