@@ -1,2 +1,5 @@
 
 également appelé le côté serveur, est la partie invisible d'une application web qui assure la gestion des données et des requêtes provenant du client. C'est un ensemble de technologies et de langages de programmation qui permettent de gérer les interactions entre le serveur et le client.
+
+
+Le Local Storage stocke les données sans limite de temps, jusqu'à ce que l'utilisateur les supprime manuellement ou que l'application le fasse alord que le Session Storage stocke les données pour la durée de la session de navigation de l'utilisateur, c'est-à-dire jusqu'à ce que l'utilisateur ferme la page ou le navigateur.
