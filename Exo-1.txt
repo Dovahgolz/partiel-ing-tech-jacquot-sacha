@@ -1,0 +1,10 @@
+function Avion(marque, modele, longueur, nbPlace, reservoir, vitesse) {
+  this.marque = marque;
+  this.modele = modele;
+  this.longueur = longueur;
+  this.nbPlace = nbPlace;
+  this.reservoir = reservoir;
+  this.vitesse = vitesse;
+}
+
+const monAvion = new Avion("Boeing", "747", 75, 650, 300000, 1000);
