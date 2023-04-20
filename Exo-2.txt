@@ -1,0 +1,51 @@
+Getters
+ 
+ getMarque() {
+    return this.marque;
+  }
+
+  getModele() {
+    return this.modele;
+  }
+
+  getLongueur() {
+    return this.longueur;
+  }
+
+  getNbPlace() {
+    return this.nbPlace;
+  }
+
+  getReservoir() {
+    return this.reservoir;
+  }
+
+  getVitesse() {
+    return this.vitesse;
+  }
+
+  Setters
+  
+  setMarque(marque) {
+    this.marque = marque;
+  }
+
+  setModele(modele) {
+    this.modele = modele;
+  }
+
+  setLongueur(longueur) {
+    this.longueur = longueur;
+  }
+
+  setNbPlace(nbPlace) {
+    this.nbPlace = nbPlace;
+  }
+
+  setReservoir(reservoir) {
+    this.reservoir = reservoir;
+  }
+
+  setVitesse(vitesse) {
+    this.vitesse = vitesse;
+  }
