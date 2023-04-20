@@ -1,0 +1,5 @@
+function totalPlaces(avions) {
+  return avions.reduce(function(total, avion) {
+    return total + avion.nbPlace;
+  }, 0);
+}
